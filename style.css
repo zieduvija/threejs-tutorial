@@ -1,0 +1,33 @@
+*{
+    font-family: system-ui, -apple-system;
+}
+
+
+#sidebar {
+    width: 500px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    right: -500px;
+    background: linear-gradient(45deg, rgba(239, 239, 239, 0.35), rgba(252, 252, 252, 0.33));
+    transition: right 0.5s;
+    color: #212121;
+    backdrop-filter: blur(25px);
+    text-align: center;
+    overflow-y: scroll;
+}
+
+#closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2rem;
+      padding:1rem;
+    border: none;
+}
+
+#closeButton:hover {
+    cursor: pointer;
+}
